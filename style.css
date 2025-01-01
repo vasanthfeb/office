@@ -36,7 +36,7 @@
       border-bottom: unset !important;
     }
     .nav-link.active {
-      color: #ff6700 !important;
+      color: #63023e !important;
       border-bottom: unset !important;
     }
     .nav_right .nav_link_container {
@@ -115,7 +115,7 @@
     content: "";
     position: absolute;
     top: 10px;
-    border: 2px solid #ff6700;
+    border: 2px solid #63023e;
     right: -4px;
     width: 10px;
     height: 10px;
@@ -128,12 +128,12 @@
     content: "";
     position: absolute;
     top: 10px;
-    border: 2px solid #ff6700;
+    border: 2px solid #63023e;
     right: -4px;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ff6700;
+    background-color: #63023e;
   }
   .navbar .contactBtn {
     font-weight: 600;
@@ -185,4 +185,10 @@
   font-weight: 400;
   font-style: normal;
   font-size: 19px
+}
+body{
+  overflow-x: hidden !important;
+  /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  background-image: radial-gradient(circle, #670040 0%, #252525 100%);
+ 
 }
