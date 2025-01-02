@@ -361,3 +361,51 @@ body{
   border: 2px solid #2f2f2f;
 }
 /* banner end */
+
+
+/* footer start */
+
+.footer {
+  background-image: radial-gradient(circle, #670040 0%, #252525 100%);
+  /* background-position: center center; */
+}
+.footerDiv ul li {
+  margin-top: 10px;
+}
+.footerDiv-title {
+  position: relative;
+}
+.footerDiv-title::before {
+  position: absolute;
+  display: flex;
+  content: "";
+  top: 110%;
+  left: 20px;
+  width: 50px;
+  height: 5px;
+  z-index: 1;
+  background-color: #ff6700;
+  border-radius: 10px;
+}
+.footerDiv-title::after {
+  position: absolute;
+  display: flex;
+  content: "";
+  top: 110%;
+  width: 15px;
+  height: 5px;
+  z-index: 1;
+  background-color: #ff6700;
+  border-radius: 10px;
+}
+.click_to_gain_logo {
+  width: 140px !important;
+}
+.footer{
+  color: #dcdcdc !important;
+}
+a{
+  text-decoration: none;
+  color: #dcdcdc;
+}
+/* footer end */
