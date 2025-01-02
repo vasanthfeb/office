@@ -83,7 +83,7 @@
   
   .navbar {
     --bs-navbar-toggler-border-color: unset;
-    color: green;
+    color: #61033e;
     
     
   }
@@ -282,3 +282,5 @@ body{
   margin-bottom: 30px;
 }
 /* our team end */
+
+
