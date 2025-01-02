@@ -286,3 +286,78 @@ body{
 /* our team end */
 
 
+/* banner start */
+
+.banner1,
+.banner2 {
+  border-radius: 7px;
+  height: 492px;
+}
+
+.banner2 {
+  background-color: #f5e1e1;
+}
+.banner2 .banner2Text {
+  color: #2f2f2f;
+}
+.banner2 .banner2Text p {
+  font-weight: 600;
+}
+
+.col-lg-4.banner2 {
+  width: 32.7% !important;
+  margin-left: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 492px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.clickToGainBanner1Rel {
+  position: relative;
+}
+
+.clickToGainBanner1Abs {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.clickToGainBannerText {
+  color: #2f2f2f;
+}
+.clickToGainBannerText .title2 {
+  font-family: "DM Serif Display", serif;
+}
+.clickToGainBannerText p {
+  font-weight: 600;
+}
+
+.clickToGainBannerBtn {
+  border: 2px solid #2f2f2f;
+  background-color: #2f2f2f;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.clickToGainBannerBtn:hover {
+  background-color: transparent;
+  color: #2f2f2f;
+  border: 2px solid #2f2f2f;
+}
+/* banner end */

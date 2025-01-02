@@ -19,3 +19,18 @@
 
 
 // Team Section end 
+
+// slide start
+
+var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+  autoplay: {
+    delay: 4000,
+  },
+  speed: 2000,
+});
+
+// slide end
