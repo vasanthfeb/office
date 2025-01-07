@@ -245,6 +245,7 @@ body{
   font-size: 18px;
   color: #dcdcdc;
   gap: 10px ;
+  font-size: 27px;
 }
 
 .team-card:hover .social-icons {
