@@ -263,7 +263,15 @@ body{
 .social-icons a:hover {
   color: #ff6347;
 }
-
+.fa-github:hover{
+  color: red !important;
+}
+.fa-linkedin-in:hover{
+  color: red !important;
+}
+.fa-instagram:hover{
+  color: red !important;
+}
 .name {
   color: #dcdcdc;
   font-weight: bold;
