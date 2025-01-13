@@ -34,3 +34,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 // slide end
+
+
+//cursor
+
+
