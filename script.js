@@ -38,4 +38,3 @@ var swiper = new Swiper(".mySwiper", {
 
 //cursor
 
-
