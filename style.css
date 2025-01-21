@@ -559,3 +559,53 @@ a{
 
 
 /* clint slide end */
+
+
+.services-box-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 2px solid #ff6700;
+}
+.services-box-icon-1 {
+  background: none;
+}
+.services-box-icon-1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/banner_seo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.services-box-icon-2 {
+  background: none;
+}
+.services-box-icon-2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/banner_seo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.services-box-icon-3 {
+  background: none;
+}
+.services-box-icon-3:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/banner_seo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.services-box-icon-4 {
+  background: none;
+}
+.services-box-icon-4:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/banner_seo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.services-box-icon .services-icon-img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+.bg-light-gray-color {
+  background-color: #161523;
+  color: #ffffff;
+}
